@@ -1,0 +1,20 @@
+    1  history
+    2  clear
+    3  git flow init
+    4  cls
+    5  clear
+    6  git checkout -b feature/mult
+    7  git add .
+    8  git status
+    9  git commit -m ":sparkles: Adicionado nova feature multiplicação"
+   10  git push origin feature/mult
+   11  git checkout master
+   12  git checkout -b feature/div
+   13  git add .
+   14  git status
+   15  git commit -m ":sparkles: Adicionado nova feature divisão"
+   16  git push origin feature/div
+   17  git branch
+   18  git checkout master
+   19  history
+   20  history > LOG_BernaDM
