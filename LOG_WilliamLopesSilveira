@@ -1,0 +1,27 @@
+    1  git clone https://github.com/WilliamLopesSilveira/finalavaliacao.git
+    2  cd finalavaliacao
+    3  git flow init
+    4  git checkout -b feature/soma
+    5  git add .
+    6  gimoji -c
+    7  git branch
+    8  git commit -m ":sparkles: adicionado nova feature soma"
+    9  git push origin feature/soma
+   10  git checkout master
+   11  git checkout -b feature/subtracao
+   12  git add .
+   13  git commit -m ":sparkles: adicionado nova feature subtração"
+   14  git push origin feature/subtracao
+   15  git branch
+   16  git checkout master
+   17  git status
+   18  git add .
+   19  git status
+   20  git tag -a 1.0.0 -m "Lançando a primeira versão da aplicação"
+   21  git tag
+   22  git pull
+   23  git push origin 1.0.0
+   24  git commit -m "Adição do Readme"
+   25  git push origin master
+   26  history
+   27  history > LOG_WilliamLopesSilveira
